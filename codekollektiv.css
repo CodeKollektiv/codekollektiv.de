@@ -1,0 +1,31 @@
+#container {
+	margin: 1em auto 2em auto;
+	width: 600px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 1em 0;
+  line-height: 1.4;
+}
+
+a {
+  font-family: monospace;
+  font-size: 1.2em;
+  padding: 0.1em 0.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: #0A71B3;
+}
+
+a:visited {
+  color: #0A71B3;
+}
+
+a:hover {
+  color: #E30E6F;
+}
