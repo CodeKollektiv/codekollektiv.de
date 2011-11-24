@@ -6,8 +6,9 @@
       CodeKollektiv
     </title>
     <link rel="stylesheet" href="codekollektiv.css" type="text/css" media="screen" charset="utf-8">
+    <script src="codekollektiv.js" type="text/javascript"></script>
   </head>
-  <body>
+  <body onload="javascript:next_meetup();">
     <div id="container">
       <h1>
         <img src="codekollektiv-logo.png" alt="CodeKollektiv" width="800" height="159">
@@ -35,6 +36,7 @@
       <p class="plain">
         We are proud hosts of the monthly <a href="http://cocoaheads-berlin.github.com/">Cocoaheads Berlin</a> meetups.
         Join us on every third Wednesday of the month, starting at 19:00.
+        <span onclick="javascript:next_meetup();">The next meetup will be on <span id="next_meetup"></span></span>.
       </p>
       
       <h2 id="hire">Are you looking for iOS or Mac developers?</h2>

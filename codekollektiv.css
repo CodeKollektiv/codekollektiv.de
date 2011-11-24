@@ -46,3 +46,8 @@ a:hover {
 .plain {
   white-space: pre-line;
 }
+
+#next_meetup {
+  display: none;
+  font-weight: bold;
+}
