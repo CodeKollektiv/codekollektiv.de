@@ -42,3 +42,7 @@ a:hover {
   border: 1px solid #666;
   background-color: #FFFF9B;
 }
+
+.plain {
+  white-space: pre-line;
+}
