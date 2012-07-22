@@ -78,3 +78,11 @@ span.metrobus {
   display: none;
   font-weight: bold;
 }
+
+#who + ul li img {
+  vertical-align:middle;
+  padding: 1px;
+  border: thin solid #ccc;
+  width: 20px;
+  margin: 1px 4px;
+}
