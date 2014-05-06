@@ -33,6 +33,6 @@ function next_meetup() {
     var day = date.getDate();
     var month = date.getMonth(); // + 1;
     var year = date.getYear() + 1900;
-    span.innerHTML = day + ". " + monthnames[month] + " " + year;
+    span.innerHTML = monthnames[month] + " " + day + ", " + year;
   }
 }
