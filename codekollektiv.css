@@ -74,6 +74,10 @@ span.metrobus {
   white-space: pre-line;
 }
 
+#logo img {
+  width: 100%;
+}
+
 #next_meetup {
   display: none;
   font-weight: bold;
@@ -85,4 +89,8 @@ span.metrobus {
   border: thin solid #ccc;
   width: 20px;
   margin: 1px 4px;
+}
+
+#who + ul {
+  list-style-type: none;
 }
