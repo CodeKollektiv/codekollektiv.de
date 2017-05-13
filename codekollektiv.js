@@ -1,3 +1,13 @@
+function member_count() {
+  var members = document.getElementById("members");
+  var span = document.getElementById("member_count");
+  if (! (members || span)) {
+    return;
+  }
+
+  span.innerHTML = members.children.length;
+}
+
 function third_wednesday_in_month(aDate) {
   // copy the aDate argument
   var date = new Date(aDate);

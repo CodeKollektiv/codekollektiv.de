@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="codekollektiv.css" type="text/css" media="screen" charset="utf-8">
     <script src="codekollektiv.js" type="text/javascript"></script>
   </head>
-  <body onload="javascript:next_meetup();">
+  <body onload="javascript:member_count();">
     <div id="container">
       <h1 id=logo>
         <img src="codekollektiv-logo.png" alt="CodeKollektiv">
@@ -14,12 +14,12 @@
       
       <h2 id="what">What is CodeKollektiv?</h2>
       <p>
-        We are a group of 7 (at last count) indie / freelance iOS and Mac developers.<br>
+        We are a group of <span id=member_count>_</span> (at last count) indie / freelance iOS and Mac developers.<br>
         The CodeKollektiv is the office that we share together in Berlin.
       </p>
       
       <h3 id="who">Members</h3>
-      <ul>
+      <ul id="members">
         <li>Linnart Bäker <a href="https://twitter.com/linnart">@linnart</a></li>
         <li>Ole Begemann <a href="https://twitter.com/olebegemann">@olebegemann</a> – <a href="http://oleb.net">oleb.net</a></li>
         <li>Alexis Hildebrandt <a href="https://twitter.com/surryhill">@surryhill</a></li>
