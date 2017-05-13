@@ -39,7 +39,7 @@ a:hover {
 a.bvg {
   font-size: smaller;
   color: white;
-  padding: 2px;
+  padding: 4px 3px 2px 2px;
   border-radius: 4px;
 }
 a.bvg:hover {
@@ -58,7 +58,7 @@ span.metrobus {
   color: white;
   background-color: #F3791D;
   margin-right: 2px;
-  padding: 2px 4px;
+  padding: 3px 5px 3px 3px;
   border-radius: 10px;
   font-size: smaller;
   font-style: italic;
