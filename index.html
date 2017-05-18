@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head lang="en">
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>CodeKollektiv</title>
-    <link rel="stylesheet" href="codekollektiv.css" type="text/css" media="screen" charset="utf-8">
-    <script src="codekollektiv.js" type="text/javascript"></script>
+    <meta name="description" content="Website of the shared ">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/codekollektiv.css">
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <script src="js/codekollektiv.js"></script>
   </head>
   <body onload="javascript:member_count();">
     <div id="container">
       <h1 id=logo>
-        <img src="codekollektiv-logo.png" alt="CodeKollektiv">
+        <img src="img/codekollektiv-logo.png" alt="CodeKollektiv">
       </h1>
       
       <h2 id="what">What is CodeKollektiv?</h2>
@@ -50,11 +55,11 @@
       </a>
       </p>
       <p>
-      <a href="http://www.fahrinfo-berlin.de/Fahrinfo/bin/" title="Fahrplan Info"><img style='height:30px' src=http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bvg-logo.svg/235px-Bvg-logo.svg.png></a><br>
+      <a href="http://www.fahrinfo-berlin.de/Fahrinfo/bin/" title="Fahrplan Info"><img id=bvg_logo src=http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bvg-logo.svg/235px-Bvg-logo.svg.png></a><br>
       <a class="bvg u1" href='http://www.bvg.de/index.php/de/3729/name/U-Bahnlinie+U1.html' title="U1 subway info">U1</a>
       <a class="bvg u7" href='http://www.bvg.de/index.php/de/3735/name/U-Bahnlinie+U7.html' title="U7 subway info">U7</a>
       <a href='http://www.bvg.de/index.php/de/3729/name/U-Bahnlinie+U1/area/89482.html' title="Subway station info">Möckernbrücke</a>
-      (<a href='http://goo.gl/maps/40kY' title='Route from Möckernbrücke to CodeKollektiv'>~5 min walk from Ausgang Tempelhofer Ufer / Möckernstr</a>)
+      (<a href='http://goo.gl/maps/40kY' title='Route from Möckernbrücke to CodeKollektiv'>~5 min walk from Ausgang Tempelhofer Ufer / Möckernstr.</a>)
       <br>
       <a class="bvg u6" href='http://www.bvg.de/index.php/de/3734/name/U-Bahnlinie+U6.html' title="U6 subway info">U6</a>
       <a class="bvg u7" href='http://www.bvg.de/index.php/de/3735/name/U-Bahnlinie+U7.html' title="U7 subway info">U7</a>
@@ -72,8 +77,7 @@
       </p>
       <p>
       <a href="http://maps.google.com/maps?q=Gro%C3%9Fbeerenstra%C3%9Fe+79,+10963,+Berlin,+Deutschland&hl=en&ie=UTF8&sll=37.0625,-95.677068&sspn=52.815565,56.953125&vpsrc=6&hnear=Gro%C3%9Fbeerenstra%C3%9Fe+79,+Berlin+10963+Berlin,+Germany&t=v&z=16" title="Großbeerenstr. 79, 10963 Berlin (Kreuzberg) on Google Maps">
-        <img style='border: thin solid gray; padding: 3px; width:600px; height: 450px;'
-        src="http://maps.google.com/maps/api/staticmap?center=52.49666,13.386&zoom=16&size=640x480&sensor=false&markers=icon:http://goo.gl/v45H8%7Cshadow:true%7C52.4971,13.385013">
+        <img id="map" src="http://maps.google.com/maps/api/staticmap?center=52.49666,13.386&zoom=16&size=640x480&sensor=false&markers=icon:http://goo.gl/v45H8%7Cshadow:true%7C52.4971,13.385013">
       </a>
       </p>
       
