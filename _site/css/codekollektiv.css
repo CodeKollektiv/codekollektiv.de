@@ -36,29 +36,18 @@ a:visited {
 a:hover {
   color: #F00;
 }
-a.bvg {
+
+.bvg {
+  font-weight: bold;
   font-size: smaller;
   color: white;
-  padding: 4px 3px 2px 2px;
+  padding: 4px 4px 4px 4px;
   border-radius: 4px;
 }
-a.bvg:hover {
-  color: black;
-}
-a.u1 {background-color: #7DAD4C;}
-a.u6 {background-color: #8C6DAB;}
-a.u7 {background-color: #528DBA;}
-a.bus {background-color: #95276E;}
-a.metrobus {color: black;}
-span.metrobus {
-  color: white;
-  background-color: #F3791D;
-  margin-right: 2px;
-  padding: 3px 5px 3px 3px;
-  border-radius: 10px;
-  font-size: smaller;
-  font-style: italic;
-}
+
+.u1 {background-color: #7DAD4C;}
+.u6 {background-color: #8C6DAB;}
+.u7 {background-color: #528DBA;}
 
 .breaking-news {
   padding: 0 2em;
