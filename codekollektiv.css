@@ -1,0 +1,88 @@
+body {
+  font-size: 18px;
+	margin: 1em auto 3em auto;
+	padding: 0 3em;
+	max-width: 900px;
+	font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0.5em 0 1.5em 0;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 2em 0 0 0;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: #D10000;
+}
+
+a:visited {
+  color: #B40000;
+}
+
+a:hover {
+  color: #F00;
+}
+a.bvg {
+  font-size: smaller;
+  color: white;
+  padding: 2px;
+  border-radius: 4px;
+}
+a.bvg:hover {
+  color:black;
+}
+a.u1 {background-color:#7DAD4C;}
+a.u6 {background-color:#8C6DAB;}
+a.u7 {background-color:#528DBA;}
+a.bus {
+  background-color:#95276E;
+}
+a.metrobus {
+  color:black;
+}
+span.metrobus {
+  color: white;
+  background-color: #F3791D;
+  margin-right: 2px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.breaking-news {
+  padding: 0 2em;
+  border: 1px solid #666;
+  background-color: #FFFF9B;
+}
+
+.plain {
+  white-space: pre-line;
+}
+
+#next_meetup {
+  display: none;
+  font-weight: bold;
+}
+
+#who + ul li img {
+  vertical-align:middle;
+  padding: 1px;
+  border: thin solid #ccc;
+  width: 20px;
+  margin: 1px 4px;
+}
