@@ -1,0 +1,6 @@
+# Netlify redirects config
+# Documentation: https://www.netlify.com/docs/redirects/
+
+# Redirect codekollektiv.com to codekollektiv.de
+https://codekollektiv.com/* https://codekollektiv.de/:splat 307!
+https://www.codekollektiv.com/* https://codekollektiv.de/:splat 307!
