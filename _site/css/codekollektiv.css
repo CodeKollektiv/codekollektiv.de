@@ -1,9 +1,15 @@
 body {
+  background-color: white;
   font-size: 18px;
-	margin: 1em auto 3em auto;
-	padding: 0 3em;
+  margin: 0 auto;
 	max-width: 900px;
-	font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Center content horizontally and vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 p {
@@ -37,61 +43,6 @@ a:hover {
   color: #F00;
 }
 
-.bvg {
-  font-weight: bold;
-  font-size: smaller;
-  color: white;
-  padding: 4px 4px 4px 4px;
-  border-radius: 4px;
-}
-
-.u1 {background-color: #7DAD4C;}
-.u6 {background-color: #8C6DAB;}
-.u7 {background-color: #528DBA;}
-
-.breaking-news {
-  padding: 0 2em;
-  border: 1px solid #666;
-  background-color: #FFFF9B;
-}
-
-.plain {
-  white-space: pre-line;
-}
-
 #logo img {
   width: 100%;
-}
-
-#next_meetup {
-  display: none;
-  font-weight: bold;
-}
-
-#members {
-  list-style-type: none;
-  padding-left: 1.35em;
-}
-
-#members li {
-  line-height: 1.35em;
-}
-
-#members li img {
-  vertical-align: middle;
-  padding: 1px;
-  border: thin solid #ccc;
-  width: 20px;
-  margin: 1px 4px;
-}
-
-#bvg_logo {
-  height: 30px;
-}
-
-#map {
-  border: thin solid gray;
-  padding: 3px;
-  width: 600px;
-  height: 450px;
 }
